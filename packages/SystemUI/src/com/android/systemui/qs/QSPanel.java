@@ -1082,7 +1082,6 @@ public class QSPanel extends LinearLayout implements Tunable, Callback, Brightne
         if (mUsingHorizontalLayout) {
             marginEnd = 0;
         }
-        updateMargins((View) mTileLayout, mVisualMarginStart, marginEnd);
     }
 
     /**
